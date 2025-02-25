@@ -62,13 +62,19 @@ const Habilidades = () => {
                 />
                 <p className="m-2">Figma</p>
                 <p className="m-2">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
-                    src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                    width="50"
-                  />
+                  <a
+                    href="https://coursera.org/share/5a3be2237c5a3c288280472d02495493"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      alt="Logo de Figma"
+                      className="w-8 h-8"
+                      height="30"
+                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
+                      width="30"
+                    />
+                  </a>
                 </p>
               </div>
               <div className="border border-gray-300 rounded-full p-3 m-2 flex">
@@ -81,13 +87,19 @@ const Habilidades = () => {
                 />
                 <p className="m-2">WordPress</p>
                 <p className="m-2">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
-                    src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                    width="30"
-                  />
+                  <a
+                    href="https://coursera.org/share/5a3be2237c5a3c288280472d02495493"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      alt="Logo de Figma"
+                      className="w-8 h-8"
+                      height="30"
+                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
+                      width="30"
+                    />
+                  </a>
                 </p>
               </div>
             </div>
@@ -145,13 +157,19 @@ const Habilidades = () => {
                   />
                   <p className="m-2">HTML</p>
                   <p className="m-2">
-                    <img
-                      alt="Logo de Figma"
-                      className="w-8 h-8"
-                      height="30"
-                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                      width="30"
-                    />
+                    <a
+                      href="https://freecodecamp.org/certification/tata1700/responsive-web-design"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        alt="Logo de Figma"
+                        className="w-8 h-8"
+                        height="30"
+                        src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
+                        width="30"
+                      />
+                    </a>
                   </p>
                 </div>
                 <div className="border border-gray-300 rounded-full p-3 m-2 flex">
@@ -165,13 +183,19 @@ const Habilidades = () => {
                   />
                   <p className="m-2">CSS</p>
                   <p className="m-2">
-                    <img
-                      alt="Logo de Figma"
-                      className="w-8 h-8"
-                      height="30"
-                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                      width="50"
-                    />
+                    <a
+                      href="https://freecodecamp.org/certification/tata1700/responsive-web-design"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        alt="Logo de Figma"
+                        className="w-8 h-8"
+                        height="30"
+                        src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
+                        width="30"
+                      />
+                    </a>
                   </p>
                 </div>
               </div>

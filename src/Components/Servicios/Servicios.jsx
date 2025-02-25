@@ -49,14 +49,15 @@ const Servicios = () => {
             </div>
             <div style={{ marginLeft: "10px" }}>
               <h2 className="text-xl font-semibold text-gray-700">
-                Diseñador UX/UI
+                Desarrollo Web Frontend
               </h2>
               <p className="text-gray-600 mt-2">
-                Diseño de interfaces modernas para aplicaciones móviles y sitios
-                web con Figma.
+                Creación de páginas web responsivas con HTML, CSS, JavaScript,
+                React, Bootstrap y Tailwind CSS.
               </p>
               <p className="text-gray-600">
-                Creación de prototipos interactivos y wireframes.
+                Implementación de animaciones y efectos visuales para mejorar la
+                experiencia del usuario.
               </p>
             </div>
           </div>
@@ -72,14 +73,19 @@ const Servicios = () => {
             </div>
             <div style={{ marginLeft: "10px" }}>
               <h2 className="text-xl font-semibold text-gray-700">
-                Diseñador UX/UI
+                Desarrollo de Software Full-Stack
               </h2>
               <p className="text-gray-600 mt-2">
-                Diseño de interfaces modernas para aplicaciones móviles y sitios
-                web con Figma.
+                Creación de paneles de administración y dashboards
+                personalizados.
               </p>
               <p className="text-gray-600">
-                Creación de prototipos interactivos y wireframes.
+                Desarrollo de sistemas web dinámicos con .NET Core, .NET, C#,
+                Blazor.
+              </p>
+              <p className="text-gray-600">
+                Integración con bases de datos y APIs para gestionar información
+                en tiempo real.
               </p>
             </div>
           </div>
@@ -95,14 +101,11 @@ const Servicios = () => {
             </div>
             <div style={{ marginLeft: "10px" }}>
               <h2 className="text-xl font-semibold text-gray-700">
-                Diseñador UX/UI
+                Presentaciones y Contenido Visual
               </h2>
               <p className="text-gray-600 mt-2">
-                Diseño de interfaces modernas para aplicaciones móviles y sitios
-                web con Figma.
-              </p>
-              <p className="text-gray-600">
-                Creación de prototipos interactivos y wireframes.
+                Diseño de presentaciones profesionales en Canva para negocios y
+                proyectos.
               </p>
             </div>
           </div>

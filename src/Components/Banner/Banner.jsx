@@ -25,7 +25,7 @@ const Banner = () => {
             {/* Íconos de redes sociales en columna */}
             <div className="flex flex-row md:flex-col items-center space-x-4 md:space-x-0 md:space-y-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/tatianasuarez17/"
                 className="d-block w-12 h-12 rounded-full  justify-center shadow-md"
               >
                 <img
@@ -36,7 +36,7 @@ const Banner = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/tatiana_suarez_xd/"
                 className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
                 <img
@@ -47,24 +47,13 @@ const Banner = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.hackerrank.com/profile/tatianasuarezro1"
                 className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
                 <img
                   alt="linkelnd"
                   className="h-full w-full object-cover"
-                  src="https://i.ibb.co/7tXh0t62/facebook-3.png"
-                  style={{ width: "50px", height: "50px" }}
-                />
-              </a>
-              <a
-                href="#"
-                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
-              >
-                <img
-                  alt="linkelnd"
-                  className="h-full w-full object-cover"
-                  src="https://i.ibb.co/0VhCwY6K/dropbox.png"
+                  src="https://i.ibb.co/KzjJP1pb/Hacker-Rank-Icon-1000px.png"
                   style={{ width: "50px", height: "50px" }}
                 />
               </a>
@@ -155,14 +144,67 @@ const Banner = () => {
             >
               FRONT END
             </span>
-            <span className="inline-block" style={{ fontSize: "50px" }}>
+            <span
+              class="material-symbols-outlined"
+              className="inline-block"
+              style={{
+                fontSize: "50px",
+                marginRight: "10px",
+                color: "#D9D9D9",
+              }}
+            >
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span
+              className="inline-block"
+              style={{ fontSize: "50px", marginRight: "10px" }}
+            >
               FULL STACK
             </span>
-            <span className="inline-block" style={{ fontSize: "50px" }}>
+            <span
+              class="material-symbols-outlined"
+              className="inline-block"
+              style={{
+                fontSize: "50px",
+                marginRight: "10px",
+                color: "#D9D9D9",
+              }}
+            >
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span
+              className="inline-block"
+              style={{ fontSize: "50px", marginRight: "10px" }}
+            >
               INGENIERO SOFTWARE
             </span>
-            <span className="inline-block" style={{ fontSize: "50px" }}>
+            <span
+              class="material-symbols-outlined"
+              className="inline-block"
+              style={{
+                fontSize: "50px",
+                marginRight: "10px",
+                color: "#D9D9D9",
+              }}
+            >
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span
+              className="inline-block"
+              style={{ fontSize: "50px", marginRight: "10px" }}
+            >
               DISEÑO UX/UI
+            </span>
+            <span
+              class="material-symbols-outlined"
+              className="inline-block"
+              style={{
+                fontSize: "50px",
+                marginRight: "10px",
+                color: "#D9D9D9",
+              }}
+            >
+              <i class="fa-solid fa-star"></i>
             </span>
           </div>
         </div>
