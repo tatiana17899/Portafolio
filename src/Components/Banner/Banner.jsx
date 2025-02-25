@@ -6,52 +6,67 @@ const Banner = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div
-      className="flex flex-col items-center justify-center w-full p-0"
-      style={{ marginLeft: "20px", marginRight: "20px", maxWidth: "97vw" }}
-    >
-      {" "}
+    <div className="flex flex-col items-center justify-center w-full p-0 banner">
       <div className="rounded-lg border border-black overflow-hidden w-full max-w-full">
-        {" "}
         <div className="flex flex-col md:flex-row">
           {/* Social Media Sidebar */}
           <div
-            className="p-4 flex flex-row items-start justify-start"
+            className="p-4 flex flex-row md:flex-col items-start justify-start md:items-center md:justify-center"
             style={{ backgroundColor: "#CDD3FF" }}
           >
             {/* Texto "Redes Sociales" en vertical */}
             <div
-              className="text-center mr-4"
+              className="text-center mr-4 hidden md:block"
               style={{ writingMode: "vertical-lr", textOrientation: "mixed" }}
             >
               <span>Redes Sociales</span>
             </div>
 
             {/* Íconos de redes sociales en columna */}
-            <div className="flex flex-col items-center space-y-4">
+            <div className="flex flex-row md:flex-col items-center space-x-4 md:space-x-0 md:space-y-4">
               <a
                 href="#"
-                className="d-block w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center shadow-md"
+                className="d-block w-12 h-12 rounded-full  justify-center shadow-md"
               >
-                <i className="fab fa-linkedin-in text-white"></i>
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/DHsdz7w5/linkedin-3.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
               </a>
               <a
                 href="#"
-                className="d-block w-12 h-12 rounded-full bg-pink-500 flex items-center justify-center shadow-md"
+                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
-                <i className="fab fa-instagram text-white"></i>
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/B55Dxp1B/instagram-4.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
               </a>
               <a
                 href="#"
-                className="d-block w-12 h-12 rounded-full bg-pink-500 flex items-center justify-center shadow-md"
+                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
-                <i className="fab fa-instagram text-white"></i>
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/7tXh0t62/facebook-3.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
               </a>
               <a
                 href="#"
-                className="d-block w-12 h-12 rounded-full bg-pink-500 flex items-center justify-center shadow-md"
+                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
-                <i className="fab fa-instagram text-white"></i>
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/0VhCwY6K/dropbox.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
               </a>
             </div>
           </div>
@@ -79,26 +94,10 @@ const Banner = () => {
                   &lt;HOLA SOY /&gt;
                 </span>
               </p>
-              <h1
-                className="custom-font text-black mt-4 font-bold"
-                style={{
-                  fontFamily: "Inter, serif",
-                  fontWeight: "700",
-                  fontSize: "90px",
-                  lineHeight: "80px",
-                }}
-              >
+              <h1 className="custom-font text-black mt-4 font-bold" id="titulo">
                 TATIANA
               </h1>
-              <h2
-                className="custom-font text-black font-bold"
-                style={{
-                  fontFamily: "Inter, serif",
-                  fontWeight: "700",
-                  fontSize: "90px",
-                  lineHeight: "80px",
-                }}
-              >
+              <h2 className="custom-font text-black font-bold" id="subtitulo">
                 SUAREZ R.
               </h2>
             </div>
@@ -108,18 +107,18 @@ const Banner = () => {
               className="mt-8 flex items-center justify-center bg-orange-200 rounded-full border border-black"
               style={{ width: "23vw", marginBottom: "100px" }}
             >
-              <div className="bg-white rounded-full px-4 py-2 border border-black">
+              <div className="bg-white rounded-full px-4 py-2 border border-black text-center">
                 Carrera: Ingeniería de Cómputo y Sistemas
               </div>
             </div>
             <div
-              class="flex items-center space-x-2 pr-4 justify-end"
+              className="flex items-center space-x-2 pr-4 justify-end"
               style={{
                 marginBottom: "40px",
               }}
             >
               <span
-                class="text-black font-semibold"
+                className="text-black font-semibold"
                 style={{
                   marginTop: "10px",
                   fontSize: "20px",
@@ -128,7 +127,7 @@ const Banner = () => {
                 Contáctame
               </span>
               <i
-                class="fa-solid fa-arrow-right"
+                className="fa-solid fa-arrow-right"
                 style={{
                   color: "#000000",
                   marginTop: "10px",
@@ -142,27 +141,127 @@ const Banner = () => {
             <img
               alt="Profile picture of Tatiana Suarez R. standing on a sidewalk with trees and grass in the background"
               className="h-full w-full object-cover"
-              src="https://placehold.co/300x400"
-              style={{ width: "600px", height: "600px" }}
+              src="https://i.ibb.co/v6Dzc6RP/Imagen-de-Whats-App-2025-02-18-a-las-20-31-02-56aa94aa.jpg"
+              id="img-profile"
             />
           </div>
         </div>
         {/* Footer */}
-        <div className="bg-white text-center text-black text-lg font-bold flex flex-wrap justify-around">
-          <span className="w-full md:w-auto" style={{ fontSize: "50px" }}>
-            FRONT END
-          </span>
-          <span className="w-full md:w-auto" style={{ fontSize: "50px" }}>
-            FULL STACK
-          </span>
-          <span className="w-full md:w-auto" style={{ fontSize: "50px" }}>
-            INGENIERO SOFTWARE
-          </span>
-          <span className="w-full md:w-auto" style={{ fontSize: "50px" }}>
-            DISEÑO UX/UI
-          </span>
+        <div className="bg-white text-center text-black text-lg font-bold flex flex-wrap justify-around overflow-hidden">
+          <div className="animate-scroll whitespace-nowrap">
+            <span
+              className="inline-block"
+              style={{ fontSize: "50px", marginRight: "10px" }}
+            >
+              FRONT END
+            </span>
+            <span className="inline-block" style={{ fontSize: "50px" }}>
+              FULL STACK
+            </span>
+            <span className="inline-block" style={{ fontSize: "50px" }}>
+              INGENIERO SOFTWARE
+            </span>
+            <span className="inline-block" style={{ fontSize: "50px" }}>
+              DISEÑO UX/UI
+            </span>
+          </div>
         </div>
       </div>
+
+      {/* Estilos CSS */}
+      <style>
+        {`
+          #titulo, #subtitulo {
+            font-family: "Inter", serif;
+            font-weight: 700;
+            font-size: 90px;
+            line-height: 80px;
+          }
+
+          #img-profile {
+            width: 600px;
+            height: 600px;
+          }
+
+          @keyframes scroll {
+            0% {
+              transform: translateX(100%);
+            }
+            100% {
+              transform: translateX(-100%);
+            }
+          }
+
+          .animate-scroll {
+            display: inline-block;
+            animation: scroll 20s linear infinite;
+          }
+
+          @media (min-width: 1655px) {
+            .banner {
+              margin-left: 20px;
+              margin-right: 20px;
+              max-width: 97vw;
+            }
+          }
+          @media (max-width: 1700px) {
+            .banner {
+              max-width: 97vw;
+              margin-left: 10px;
+              margin-right: 10px;
+            }
+          }
+
+          @media (max-width: 1400px) {
+            #titulo, #subtitulo {
+              font-size: 80px !important;
+              line-height: 80px !important;
+            }
+          }
+
+          @media (max-width: 1200px) {
+            #img-profile {
+              max-width: 400px !important;
+              max-height: 800px !important;
+            }
+            #titulo, #subtitulo {
+              font-size: 70px !important;
+              line-height: 70px !important;
+            }
+          }
+
+          @media (max-width: 1000px) {
+            .banner {
+              max-width: 95vw;
+              margin-left: 10px;
+              margin-right: 10px;
+            }
+            #titulo, #subtitulo {
+              font-size: 70px !important;
+              line-height: 70px !important;
+            }
+              #img-profile {
+              max-width: 300px !important;
+              max-height: 800px !important;
+            }
+          }
+          @media (max-width: 800px) {
+            .banner {
+              max-width: 80vw;
+              margin-left: 50px;
+              margin-right: 50px;
+            }
+            #titulo, #subtitulo {
+              font-size: 70px !important;
+              line-height: 70px !important;
+            }
+              #img-profile {
+              max-width: 900px !important;
+              max-height: 500px !important;
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };

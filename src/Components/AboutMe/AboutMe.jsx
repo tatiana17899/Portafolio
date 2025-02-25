@@ -16,9 +16,8 @@ const AboutMe = () => {
         <div className="flex-shrink-0">
           <img
             alt="Foto de perfil de Tatiana Suárez"
-            className=" w-48 h-60 object-cover border border-black"
-            class="z-10"
-            src="https://storage.googleapis.com/a1aa/image/HwQzn2ihSkjJxVHSt2CChuEK1bHFx7E3qA7cJjZ2dZA.jpg"
+            className="w-48 h-60 object-cover border border-black z-10"
+            src="https://i.ibb.co/SkCLrLw/Tatiana-Suarez-Peru.jpg"
             style={{
               width: "400px",
               height: "400px",
@@ -42,7 +41,7 @@ const AboutMe = () => {
             style={{ marginLeft: "5vw" }}
           >
             <button
-              className=" border border-black rounded-full flex items-center justify-center"
+              className="border border-black rounded-full flex items-center justify-center"
               style={{
                 width: "70px",
                 height: "50px",
@@ -53,14 +52,14 @@ const AboutMe = () => {
               <img
                 alt="Bandera de Perú"
                 className="w-5 h-5"
-                height="20"
-                src="https://storage.googleapis.com/a1aa/image/Z1xNeEVIue7BQYb4YBV1B52Au0x2KR8YgbScsdnVIDg.jpg"
-                width="20"
+                height="30"
+                src="https://i.ibb.co/zhYhMX4f/bandera.png"
+                width="30"
               />
             </button>
 
             <button
-              className=" border border-black flex items-center justify-center rounded-full"
+              className="border border-black flex items-center justify-center rounded-full"
               style={{
                 width: "70px",
                 height: "50px",
@@ -68,7 +67,13 @@ const AboutMe = () => {
                 backgroundColor: "#FEA3E7",
               }}
             >
-              <i className="fas fa-female text-pink-500 text-xl"></i>
+              <img
+                alt="Bandera de Perú"
+                className="w-5 h-5"
+                height="40"
+                src="https://i.ibb.co/N2h4pVGf/mujer.png"
+                width="40"
+              />
             </button>
           </div>
           <p
@@ -88,7 +93,7 @@ const AboutMe = () => {
             soluciones tecnológicas que marcan la diferencia.
           </p>
           <div
-            class="bg-[#f7fbe7]  pl-16 relative z-0 mt-6 border border-black"
+            className="bg-[#f7fbe7] pl-16 relative z-0 mt-6 border border-black"
             style={{
               transform: "translateX(-100px)",
               borderBottomLeftRadius: "300px",
@@ -97,53 +102,207 @@ const AboutMe = () => {
               height: "300px",
               zIndex: "-1",
             }}
+            id="info"
           >
             <div
-              class="grid grid-cols-2 gap-4"
+              className="grid grid-cols-2 gap-4"
               style={{
                 marginLeft: "60px",
                 marginRight: "60px",
                 padding: "40px",
               }}
+              id="info-dd"
             >
-              <div class="flex items-center mb-2">
-                <i class="fas fa-birthday-cake mr-2"></i>
+              <div className="flex items-center mb-2" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/YTZmY51p/pastel.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                  }}
+                />
                 <span>17 nov 2004</span>
               </div>
-              <div class="flex items-center mb-2">
-                <i class="fas fa-user mr-2"></i>
+              <div className="flex items-center mb-2" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/N2LTjg8n/roca.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                    marginRight: "10px",
+                  }}
+                />
                 <span>20 años</span>
               </div>
-              <div class="flex items-center mb-2">
-                <i class="fab fa-github mr-2"></i>
+              <div className="flex items-center mb-2" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/1fp6cR6V/github-4.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                    marginRight: "10px",
+                  }}
+                />
                 <span>
                   GitHub:{" "}
                   <a
-                    class="text-blue-500"
+                    className="text-blue-500"
                     href="https://github.com/tatiana17899"
                   >
                     https://github.com/tatiana17899
                   </a>
                 </span>
               </div>
-              <div class="flex items-center mb-2">
-                <i class="fas fa-graduation-cap mr-2"></i>
+              <div className="flex items-center mb-2" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/MDH6PtGw/graduacion.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                    marginRight: "10px",
+                  }}
+                />
                 <span>
                   Título: Ingeniería de Cómputo y Sistemas (2022-2027)
                 </span>
               </div>
-              <div class="flex items-center mb-2">
-                <i class="fas fa-map-marker-alt mr-2"></i>
+              <div className="flex items-center mb-2" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/99mMKR5d/empresa.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                    marginRight: "10px",
+                  }}
+                />
                 <span>La Molina, Lima</span>
               </div>
-              <div class="flex items-center">
-                <i class="fas fa-language mr-2"></i>
+              <div className="flex items-center" id="info-item">
+                <img
+                  alt="linkelnd"
+                  className="h-full w-full object-cover"
+                  src="https://i.ibb.co/TM9HKYQ4/linguistica.png"
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    marginBottom: "20px",
+                    marginRight: "10px",
+                  }}
+                />
                 <span>Español (nativo), Inglés (B1), Chino (HSK3)</span>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Estilos CSS */}
+      <style>
+        {`
+          #info {
+            width: 100%; /* Ancho por defecto */
+          }
+
+          @media (max-width: 1600px) {
+            #info {
+              width: 120%; 
+              transform: translateX(-150px);
+            }
+          }
+          @media (max-width: 1400px) {
+            #info {
+              width: 130%;
+              transform: translateX(-150px); 
+            }
+          }
+          @media (max-width: 1300px) {
+            #info {
+              width: 130%;
+              transform: translateX(-150px); 
+            }
+            #info-item{
+              font-size:14px;
+              padding:10px;
+            }
+          }
+          @media (max-width: 1250px) {
+            #info {
+              width: 130%;
+              transform: translateX(-150px); 
+            }
+            #info-item{
+              font-size:12px;
+              padding:10px;
+            }
+          }
+          @media (max-width: 1190px) {
+            #info {
+              width: 140%;
+              transform: translateX(-150px); 
+            }
+            #info-item{
+              font-size:12px;
+              padding:2px;
+            }
+            a{
+              font-size:8px;
+            }
+          }
+          @media (max-width: 1000px) {
+            #info {
+              width: 150%;
+              transform: translateX(-150px); 
+
+            }
+            #info-item{
+              font-size:8px;
+              padding:2px;
+            }
+            a{
+              font-size:8px;
+            }
+            #info-dd{
+              margin-left: "30px",
+              margin-right: "30px",
+              padding: "10px",
+            }
+          }
+          @media (max-width: 800px) {
+            #info {
+              width: 120%;
+              transform: translateX(-150px); 
+
+            }
+            #info-item{
+              font-size:10px;
+              padding:2px;
+            }
+            a{
+              font-size:8px;
+            }
+            #info-dd{
+              margin-left: "30px",
+              margin-right: "30px",
+              padding: "10px",
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
