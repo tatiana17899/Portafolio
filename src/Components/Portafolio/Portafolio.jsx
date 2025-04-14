@@ -12,8 +12,7 @@ const Portafolio = () => {
       id: 1,
       category: "Diseño UX/UI",
       title: "Diseño Web | Mi Portafolio",
-      image:
-        "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
+      image: "https://i.ibb.co/DfV1Wcxp/eee.png",
       url: "https://www.figma.com/design/6d0jGq1Iztr6diZGG0YjW9/Untitled?node-id=0-1&m=dev&t=S8dwXBPsDY2qSdBK-1",
     },
     {
@@ -276,10 +275,10 @@ const Portafolio = () => {
                 <div className="flex justify-center mb-4">
                   <img
                     alt="Screenshot of a mobile app showing contacts, chats, and more options"
-                    className="w-1/3 border border-gray-300 rounded-lg mx-2"
-                    height="600"
+                    className="w-full md:w-3/4 border border-gray-300 rounded-lg" // Ajusta el ancho aquí
+                    height="auto" // Altura automática para mantener la proporción
                     src={trabajo.image}
-                    width="300"
+                    width="auto" // Ancho automático para mantener la proporción
                   />
                 </div>
                 <div className="bg-white border-t border-gray-300 p-4 text-center">

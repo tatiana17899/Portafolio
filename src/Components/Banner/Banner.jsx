@@ -46,17 +46,6 @@ const Banner = () => {
                   style={{ width: "50px", height: "50px" }}
                 />
               </a>
-              <a
-                href="https://www.hackerrank.com/profile/tatianasuarezro1"
-                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
-              >
-                <img
-                  alt="linkelnd"
-                  className="h-full w-full object-cover"
-                  src="https://i.ibb.co/KzjJP1pb/Hacker-Rank-Icon-1000px.png"
-                  style={{ width: "50px", height: "50px" }}
-                />
-              </a>
             </div>
           </div>
 
@@ -99,30 +88,6 @@ const Banner = () => {
               <div className="bg-white rounded-full px-4 py-2 border border-black text-center">
                 Carrera: Ingeniería de Cómputo y Sistemas
               </div>
-            </div>
-            <div
-              className="flex items-center space-x-2 pr-4 justify-end"
-              style={{
-                marginBottom: "40px",
-              }}
-            >
-              <span
-                className="text-black font-semibold"
-                style={{
-                  marginTop: "10px",
-                  fontSize: "20px",
-                }}
-              >
-                Contáctame
-              </span>
-              <i
-                className="fa-solid fa-arrow-right"
-                style={{
-                  color: "#000000",
-                  marginTop: "10px",
-                  marginLeft: "10px",
-                }}
-              ></i>
             </div>
           </div>
           {/* Profile Image */}

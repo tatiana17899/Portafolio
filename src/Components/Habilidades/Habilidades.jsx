@@ -5,8 +5,8 @@ const Habilidades = () => {
   return (
     <div
       style={{
-        paddingLeft: "200px",
-        paddingRight: "200px",
+        paddingLeft: "60px",
+        paddingRight: "60px",
         paddingBottom: "100px",
       }}
       id=""
@@ -42,8 +42,7 @@ const Habilidades = () => {
               </h2>
             </div>
             <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
-              Desarrollo de prototipos y maquetas funcionales (Web y móvil) para
-              interfaces intuitivas, adaptadas a las necesidades del usuario.
+              Herramientas que utilizo:
             </p>
             <p
               className="font-bold text-gray-500 mb-2"
@@ -61,31 +60,6 @@ const Habilidades = () => {
                   width="30"
                 />
                 <p className="m-2">Figma</p>
-                <p className="m-2">
-                  <a
-                    href="https://coursera.org/share/5a3be2237c5a3c288280472d02495493"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      alt="Logo de Figma"
-                      className="w-8 h-8"
-                      height="30"
-                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                      width="30"
-                    />
-                  </a>
-                </p>
-              </div>
-              <div className="border border-gray-300 rounded-full p-3 m-2 flex">
-                <img
-                  alt="Logo de Figma"
-                  className="w-8 h-8"
-                  height="30"
-                  src="https://i.ibb.co/R46BtCHC/wordpress.png"
-                  width="30"
-                />
-                <p className="m-2">WordPress</p>
                 <p className="m-2">
                   <a
                     href="https://coursera.org/share/5a3be2237c5a3c288280472d02495493"
@@ -133,11 +107,7 @@ const Habilidades = () => {
                 </h2>
               </div>
               <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
-                Creación de sitios web dinámicos y responsivos con un diseño
-                atractivo, optimización para alto rendimiento y una experiencia
-                de usuario fluida, utilizando HTML, CSS, JavaScript, React,
-                Bootstrap y Tailwind CSS para desarrollar interfaces modernas,
-                accesibles y adaptadas a cualquier dispositivo.
+                Herramientas que utilizo:
               </p>
               <p
                 className="font-bold text-gray-500 mb-2"
@@ -205,39 +175,6 @@ const Habilidades = () => {
                     alt="Logo de Figma"
                     className="w-8 h-8"
                     height="30"
-                    src="https://i.ibb.co/r2Jtrfnj/6cb056-8605763b03dd4bff93e07426e27078a7-mv2.webp"
-                    width="30"
-                    style={{ marginTop: "5px" }}
-                  />
-                  <p className="m-2">React</p>
-                  <p className="m-2">
-                    <img
-                      alt="Logo de Figma"
-                      className="w-8 h-8"
-                      height="30"
-                      src="https://i.ibb.co/9kj2nN9X/calidad-1.png"
-                      width="50"
-                    />
-                  </p>
-                </div>
-                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
-                    src="https://i.ibb.co/DPxHZCMs/683-6833893-node-js-logo-png-transparent-png-removebg-preview.png"
-                    width="30"
-                    style={{ marginTop: "5px" }}
-                  />
-                  <p className="m-2">Node JS</p>
-                </div>
-              </div>
-              <div className="flex space-x-4">
-                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
                     src="https://i.ibb.co/C3bjf1Sh/js.png"
                     width="30"
                     style={{ marginTop: "5px" }}
@@ -266,17 +203,6 @@ const Habilidades = () => {
                   />
                   <p className="m-2">Boostrap</p>
                 </div>
-                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
-                    src="https://i.ibb.co/BH7RJbhD/images-4-removebg-preview-1.png"
-                    width="30"
-                    style={{ marginTop: "5px" }}
-                  />
-                  <p className="m-2">Tailwind CSS</p>
-                </div>
               </div>
             </div>
           </div>
@@ -304,14 +230,11 @@ const Habilidades = () => {
                 className="font-bold text-gray-700"
                 style={{ fontSize: "22px" }}
               >
-                Desarrolador Software (Full-Stack)
+                Desarrolador Software - MVC , Auth Individual
               </h2>
             </div>
             <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
-              Desarrollador Full-Stack especializado en la creación de sistemas
-              web escalables y eficientes con .NET Core, .NET, C# y Blazor,
-              integrando frontend y backend para ofrecer soluciones robustas,
-              seguras y de alto rendimiento.
+              Herramientas que utilizo:
             </p>
             <p
               className="font-bold text-gray-500 mb-2"
@@ -413,9 +336,7 @@ const Habilidades = () => {
                 </h2>
               </div>
               <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
-                Gestión de bases de datos para almacenar y manejar información
-                de manera eficiente, asegurando una conexión fluida entre el
-                frontend y el backend para aplicaciones dinámicas y funcionales.
+                Herramientas que utilizo:
               </p>
               <p
                 className="font-bold text-gray-500 mb-2"
@@ -454,58 +375,6 @@ const Habilidades = () => {
                     style={{ marginRight: "10px", marginLeft: "5px" }}
                   />
                   <p className="m-2">PostgreSql</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Visualización y Presentación */}
-        <div className="relative md:row-span-2">
-          <div className="relative">
-            <div
-              className="absolute inset-0 rounded-lg transform translate-x-5 translate-y-1 border border-black "
-              style={{
-                backgroundColor: "#BDABFF",
-              }}
-            ></div>
-            <div className="relative bg-white p-4 rounded-lg border border-black transform translate-x-2 translate-y-4">
-              <div className="flex items-center mb-4">
-                <div className="border border-black rounded-lg p-2 m-2">
-                  <img
-                    alt="Icono de diseño UX/UI"
-                    className="w-12 h-12 mr-4"
-                    height="50"
-                    src="https://i.ibb.co/RkZT4tjY/cuadro-1.png"
-                    width="50"
-                  />
-                </div>
-                <h2
-                  className="font-bold text-gray-700"
-                  style={{ fontSize: "22px" }}
-                >
-                  Visualización y Presentación
-                </h2>
-              </div>
-              <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
-                Realización de presentaciones creativas en canva
-              </p>
-              <p
-                className="font-bold text-gray-500 mb-2"
-                style={{ marginLeft: "10px" }}
-              >
-                Herramientas:
-              </p>
-              <div className="flex space-x-4">
-                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
-                  <img
-                    alt="Logo de Figma"
-                    className="w-8 h-8"
-                    height="30"
-                    src="https://i.ibb.co/FkymWQss/1656733637logo-canva-png.webp"
-                    width="30"
-                    style={{ marginRight: "10px", marginLeft: "5px" }}
-                  />
-                  <p className="m-2">Canva</p>
                 </div>
               </div>
             </div>

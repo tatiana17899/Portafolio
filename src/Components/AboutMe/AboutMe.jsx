@@ -117,33 +117,6 @@ const AboutMe = () => {
                 <img
                   alt="linkelnd"
                   className="h-full w-full object-cover"
-                  src="https://i.ibb.co/YTZmY51p/pastel.png"
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    marginBottom: "20px",
-                  }}
-                />
-                <span>17 nov 2004</span>
-              </div>
-              <div className="flex items-center mb-2" id="info-item">
-                <img
-                  alt="linkelnd"
-                  className="h-full w-full object-cover"
-                  src="https://i.ibb.co/N2LTjg8n/roca.png"
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    marginBottom: "20px",
-                    marginRight: "10px",
-                  }}
-                />
-                <span>20 años</span>
-              </div>
-              <div className="flex items-center mb-2" id="info-item">
-                <img
-                  alt="linkelnd"
-                  className="h-full w-full object-cover"
                   src="https://i.ibb.co/1fp6cR6V/github-4.png"
                   style={{
                     width: "40px",
@@ -204,7 +177,7 @@ const AboutMe = () => {
                     marginRight: "10px",
                   }}
                 />
-                <span>Español (nativo), Inglés (B1), Chino (HSK3)</span>
+                <span>Español (nativo), Inglés (A2), Chino (HSK1)</span>
               </div>
             </div>
           </div>

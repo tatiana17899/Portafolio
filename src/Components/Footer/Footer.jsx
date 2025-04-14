@@ -9,7 +9,7 @@ const Footer = () => {
       </p>
       <div class="flex justify-center space-x-4 mb-4">
         <a href="#" class="text-gray-400">
-          e-book
+          YapitaPE
         </a>
         <a href="#" class="text-gray-400">
           Profile Hub
