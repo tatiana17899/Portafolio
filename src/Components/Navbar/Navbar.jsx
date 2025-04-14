@@ -53,16 +53,6 @@ const Navbar = () => {
                 marginRight: "20px",
               }}
             >
-              Servicios
-            </a>
-            <a
-              href="#"
-              className="text-black hover:text-gray-600"
-              style={{
-                marginLeft: "20px",
-                marginRight: "20px",
-              }}
-            >
               Portafolio
             </a>
           </div>
@@ -90,16 +80,13 @@ const Navbar = () => {
               Sobre mí
             </a>
             <a href="#" className="px-4 py-2 text-black hover:bg-gray-200">
-              Servicios
-            </a>
-            <a href="#" className="px-4 py-2 text-black hover:bg-gray-200">
               Portafolio
             </a>
           </div>
         </div>
       )}
 
-      {/* Selector de idioma */}
+      {/* Selector de idioma 
       <div className="relative ml-2 h-16">
         <div
           className="flex items-center border border-black h-full px-4 py-3 cursor-pointer w-[150px]"
@@ -136,7 +123,7 @@ const Navbar = () => {
             </a>
           </div>
         )}
-      </div>
+      </div>*/}
     </nav>
   );
 };
