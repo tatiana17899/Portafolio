@@ -308,6 +308,80 @@ const Habilidades = () => {
             </div>
           </div>
         </div>
+        <div className="relative md:row-span-2">
+          <div className="relative">
+            <div
+              className="absolute inset-0 rounded-lg transform translate-x-3 translate-y-3 border border-black"
+              style={{
+                backgroundColor: "#139B39",
+              }}
+            ></div>
+            <div className="relative bg-white p-4 rounded-lg border border-black ">
+              <div className="flex items-center mb-4">
+                <div className="border border-black rounded-lg p-2 m-2">
+                  <img
+                    alt="Icono de diseño UX/UI"
+                    className="w-12 h-12 mr-4"
+                    height="50"
+                    src="https://i.postimg.cc/0j5nRX4x/control-de-versiones.png"
+                    width="50"
+                  />
+                </div>
+                <h2
+                  className="font-bold text-gray-700"
+                  style={{ fontSize: "22px" }}
+                >
+                  Herramientas de control de versiones y gestión de proyectos
+                </h2>
+              </div>
+              <p className="text-gray-600 mb-4" style={{ marginLeft: "10px" }}>
+                Herramientas que utilizo:
+              </p>
+              <p
+                className="font-bold text-gray-500 mb-2"
+                style={{ marginLeft: "10px" }}
+              >
+                Herramientas:
+              </p>
+              <div className="flex space-x-4">
+                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
+                  <img
+                    alt="Logo de Figma"
+                    className="w-8 h-8"
+                    height="30"
+                    src="https://i.postimg.cc/wBKkTjrw/github-6980894-960-720.webp"
+                    width="30"
+                    style={{ marginRight: "10px", marginLeft: "5px" }}
+                  />
+                  <p className="m-2">Github</p>
+                </div>
+                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
+                  <img
+                    alt="Logo de Figma"
+                    className="w-8 h-8"
+                    height="30"
+                    src="https://i.postimg.cc/cJQBKNy0/images-20.png"
+                    width="30"
+                    style={{ marginRight: "10px", marginLeft: "5px" }}
+                  />
+                  <p className="m-2">Git</p>
+                </div>
+                <div className="border border-gray-300 rounded-full p-3 m-2 flex">
+                  <img
+                    alt="Logo de Figma"
+                    className="w-8 h-8"
+                    height="30"
+                    src="https://i.postimg.cc/mk6YxLMN/jira.png"
+                    width="30"
+                    style={{ marginRight: "10px", marginLeft: "5px" }}
+                  />
+                  <p className="m-2">Jira</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Gestión de Base de Datos */}
         <div className="relative md:row-span-2">
           <div className="relative">
@@ -381,6 +455,7 @@ const Habilidades = () => {
           </div>
         </div>
       </div>
+
       {/* Estilos CSS */}
       <style>
         {`

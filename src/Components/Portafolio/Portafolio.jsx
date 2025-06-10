@@ -20,15 +20,6 @@ const Portafolio = () => {
     {
       id: 2,
       category: "Diseño UX/UI",
-      title: "Diseño Web | Portafolio Modelo Profesional",
-      descripción:
-        "Diseño de un portafolio web para profesionales con un enfoque en la presentación de proyectos y habilidades.",
-      image: "https://i.postimg.cc/kG3105y3/img2.png",
-      url: "https://www.figma.com/design/oGjzkT60N6UrCar5DyaQIH/Portafolio-Vista?m=dev&t=WHwf9oYWmoIipgnE-1",
-    },
-    {
-      id: 3,
-      category: "Diseño UX/UI",
       title: "Diseño Web | Página Turistica Perú",
       descripción:
         "Diseño de la página de inicio para promover el turismo en Perú, destacando sus atractivos culturales y naturales.",
@@ -36,7 +27,7 @@ const Portafolio = () => {
       url: "https://www.figma.com/design/Ptgl82CWi04lPjvk1hJsLi/P%C3%A1gina-Per%C3%BA?m=dev&t=WHwf9oYWmoIipgnE-1",
     },
     {
-      id: 4,
+      id: 3,
       category: "Diseño UX/UI",
       title:
         "Diseño Web | Aplicación Web para empresa de venta de servicios de desarrollo tecnológicos",
@@ -46,57 +37,11 @@ const Portafolio = () => {
       url: "https://www.figma.com/design/U3A3bDJSsCL6YQFYLKS3D0/Empresa-d?node-id=0-1&m=dev&t=Nmxp7Qu0JNGU3yuh-1",
     },
     {
-      id: 6,
-      category: "Diseño UX/UI",
-      title:
-        "Diseño Web y movil| Página Administrador para el Museo de los Descalzos",
-      descripción:
-        "Diseño de una página de administrador para el Museo de los Descalzos, permitiendo la gestión de contenido y usuarios.",
-      image: "https://i.postimg.cc/yxpJJDp2/img5.png",
-      url: "https://www.figma.com/design/HrEiRtEkX8CwiruFvK53yr/Administrador-Museo-de-los-Descalzos?m=dev&t=Nmxp7Qu0JNGU3yuh-1",
-    },
-    {
-      id: 7,
-      category: "Diseño UX/UI",
-      title: "Diseño Web | Página Web para la empresa GRINPLAS",
-      descripción:
-        "Diseño de una página web para la empresa GRINPLAS, enfocada en la presentación de sus productos y servicios.",
-      image: "https://i.postimg.cc/FKXYJ5GF/img6.png",
-      url: "https://www.figma.com/design/HBx7GNZLRnDjisPpls7FIL/Anexo-21_-A-Prototipado%C2%A0de%C2%A0HUs?node-id=0-1&p=f&t=m1fc2bk8d6rflXe9-0 ",
-    },
-    {
-      id: 8,
-      category: "Diseño UX/UI",
-      title:
-        "Diseño Web | Página Web para la implementación de un chatbot para una empresa de venta de ropa",
-      descripción:
-        "Diseño de una página web que desea implementar un chatbot para mejorar la atención al cliente en una empresa de venta de ropa. Modelo de referncia",
-      image: "https://i.postimg.cc/hPJvyP5P/img7.png",
-      url: "https://www.figma.com/design/SiKdzNtm8j9M0Y4EScqDQP/Tienda-H---M?t=zg5U0Z3p3QaPiQvL-0",
-    },
-    {
-      id: 9,
-      category: "Diseño UX/UI",
-      title:
-        "Diseño Móvil | Aplicación Móvil para una empresa de estacionamiento de carros en un centro comercial",
-      descripción:
-        "Diseño de aplicación móvil para una empresa de estacionamiento de carros en un centro comercial, permitiendo a los usuarios reservar espacios y gestionar pagos. Incluyendo un diseño web para gestionar el sistema.",
-      image: "https://i.postimg.cc/8CGCzdPj/img8.png",
-      url: "https://www.figma.com/design/Hb2eu8MzH2Fr1YpZA8Qfop/CencoSmart-Parking?t=zg5U0Z3p3QaPiQvL-0",
-    },
-    {
-      id: 10,
-      category: "Diseño UX/UI",
-      title: "Diseño Móvil | Aplicación Móvil para citas médicas",
-      descripción:
-        "Diseño de aplicación móvil para una clínica médica, permitiendo a los pacientes reservar citas y gestionar su historial médico.",
-      image: "https://i.postimg.cc/BbRS9HVZ/img9.png",
-      url: "https://www.figma.com/design/SVz2Je4JFfwTOaeTDGIANk/CitaVital?node-id=0-1&p=f&t=Gcg9ZznAOVaij1x5-0",
-    },
-    {
       id: 1,
       category: "Desarrollo Web",
-      title: "Diseño Web | Página Web para la empresa Museo Descalzos",
+      title: "Diseño Web | Página Web para la empresa G&R",
+      descripción:
+        "Diseño web (Front-End) de la página pública para la empresa de G&R",
       image:
         "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
       url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
@@ -105,6 +50,18 @@ const Portafolio = () => {
       id: 2,
       category: "Desarrollo Web",
       title: "Diseño Web | Página Web para la empresa G&R",
+      descripción:
+        "Diseño web (Front-End) de la página administrador para la empresa de G&R",
+      image: "https://i.postimg.cc/XvGQnwbD/imagen-2025-06-01-214537783.png",
+      url: "https://tatiana17899.github.io/plantillaDashboardG-R/",
+    },
+    {
+      id: 3,
+      category: "Desarrollo Web",
+      title:
+        "Diseño Web | Página Web Adiministrador para el Museo de los Descalzos",
+      descripción:
+        "Diseño web (Front-End) de la página administrador para el Museo de los Descalzos",
       image:
         "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
       url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
@@ -113,14 +70,8 @@ const Portafolio = () => {
       id: 1,
       category: ".NET",
       title: "Desarrollo del Sistema de Ventas para la empresa G&R",
-      image:
-        "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
-      url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
-    },
-    {
-      id: 2,
-      category: ".NET",
-      title: "Desarrollo web Profile Hub",
+      descripción:
+        "Desarrollo del sistema de ventas para la empresa G&R utilizando .NET, incluyendo la implementación de funcionalidades de gestión de productos, clientes y ventas.",
       image:
         "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
       url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
