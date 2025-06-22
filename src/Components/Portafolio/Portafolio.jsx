@@ -11,11 +11,11 @@ const Portafolio = () => {
     {
       id: 1,
       category: "Diseño UX/UI",
-      title: "Diseño Web | Mi Portafolio",
-      descripción: "Diseño de mi portafolio personal",
-      image:
-        "https://i.postimg.cc/V63pzgmh/Beige-Blogger-Moderna-Personal-Sitio-web.png",
-      url: "https://www.figma.com/design/6d0jGq1Iztr6diZGG0YjW9/Untitled?node-id=0-1&m=dev&t=S8dwXBPsDY2qSdBK-1",
+      title: "Diseño Móvil | CitaVital",
+      descripción:
+        "Diseño de la aplicación móvil CitaVital, enfocada en la gestión de citas médicas.",
+      image: "https://i.postimg.cc/XJvmwbg5/imagen-2025-06-22-114721494.png",
+      url: "https://www.figma.com/design/SVz2Je4JFfwTOaeTDGIANk/CitaVital?node-id=0-1&p=f&t=Jxw5NirGqrz3nEBK-0",
     },
     {
       id: 2,
