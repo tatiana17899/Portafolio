@@ -15,6 +15,7 @@ const App = () => {
       <AboutMe />
       <Habilidades />
       <Portafolio />
+      <KofiWidget />
       <Footer />
     </div>
   );
