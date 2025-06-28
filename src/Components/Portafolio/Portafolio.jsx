@@ -37,34 +37,20 @@ const Portafolio = () => {
       url: "https://www.figma.com/design/U3A3bDJSsCL6YQFYLKS3D0/Empresa-d?node-id=0-1&m=dev&t=Nmxp7Qu0JNGU3yuh-1",
     },
     {
-      id: 1,
-      category: "Desarrollo Web",
-      title: "Diseño Web | Página Web para la empresa G&R",
-      descripción:
-        "Diseño web (Front-End) de la página pública para la empresa de G&R",
-      image:
-        "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
-      url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
+      id: 4,
+      category: "Diseño UX/UI",
+      title: "Desarrollo del Sistema de Ventas para la empresa G&R",
+      image: "https://i.postimg.cc/k4b78fN8/imagen-2025-06-27-232327878.png",
+      url: "https://www.figma.com/design/2I9NmXcZlo9AEuRuiQxD4r/Anexo-21_-A-Prototipado%C2%A0de%C2%A0HU?node-id=0-1&p=f&t=GW1AX6VdNn0PAwk2-0",
     },
     {
-      id: 2,
+      id: 1,
       category: "Desarrollo Web",
       title: "Diseño Web | Página Web para la empresa G&R",
       descripción:
         "Diseño web (Front-End) de la página administrador para la empresa de G&R",
       image: "https://i.postimg.cc/XvGQnwbD/imagen-2025-06-01-214537783.png",
-      url: "https://tatiana17899.github.io/plantillaDashboardG-R/",
-    },
-    {
-      id: 3,
-      category: "Desarrollo Web",
-      title:
-        "Diseño Web | Página Web Adiministrador para el Museo de los Descalzos",
-      descripción:
-        "Diseño web (Front-End) de la página administrador para el Museo de los Descalzos",
-      image:
-        "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
-      url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
+      url: "https://tatcode.gumroad.com/l/dashboard",
     },
     {
       id: 1,
@@ -72,9 +58,8 @@ const Portafolio = () => {
       title: "Desarrollo del Sistema de Ventas para la empresa G&R",
       descripción:
         "Desarrollo del sistema de ventas para la empresa G&R utilizando .NET, incluyendo la implementación de funcionalidades de gestión de productos, clientes y ventas.",
-      image:
-        "https://storage.googleapis.com/a1aa/image/rcVvD-RIL4VRKSv2jfqszZt19WxWeeiqN6ufdLMWOlM.jpg",
-      url: "https://www.figma.com/design/N8xKcOK1CxiOqaRCdqJZNu/P%C3%A1gina-Web-GRINPLAS?t=Nmxp7Qu0JNGU3yuh-1",
+      image: "https://i.postimg.cc/0yXvBLcD/1-dashboard.png",
+      url: "https://github.com/tatiana17899/GRINPLAS.git",
     },
 
     // Agrega más trabajos aquí

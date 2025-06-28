@@ -14,7 +14,7 @@ const AboutMe = () => {
     >
       <div className="flex flex-col md:flex-row">
         <div className="flex-shrink-0">
-          <img
+          {/*<img
             alt="Foto de perfil de Tatiana Suárez"
             className="w-48 h-60 object-cover border border-black z-10"
             src="https://i.ibb.co/SkCLrLw/Tatiana-Suarez-Peru.jpg"
@@ -23,7 +23,7 @@ const AboutMe = () => {
               height: "400px",
               borderBottomRightRadius: "50px",
             }}
-          />
+          />*/}
         </div>
         <div className="md:ml-6 mt-4 md:mt-0 flex-1">
           <h1
@@ -88,17 +88,21 @@ const AboutMe = () => {
             San Martín de Porres, Lima, Perú.
           </p>
           <p className="mt-2 text-gray-600" style={{ marginLeft: "5vw" }}>
-            ¡Bienvenida a mi espacio digital! Soy Tatiana Suárez, una
+            ¡Bienvenida a mi espacio digital! Me llamo Tatiana, soy una
             desarrolladora autodidacta comprometida con transformar ideas en
-            soluciones tecnológicas que marcan la diferencia.
+            soluciones tecnológicas que marcan la diferencia | Welcome to my
+            digital space! My name is Tatiana, and I’m a self-taught developer
+            committed to transforming ideas into technological solutions that
+            make a difference.
           </p>
           <div
             className="bg-[#f7fbe7] pl-16 relative z-0 mt-6 border border-black"
             style={{
               transform: "translateX(-100px)",
-              borderBottomLeftRadius: "300px",
-              borderTopRightRadius: "20px",
-              borderBottomRightRadius: "20px",
+              //borderBottomLeftRadius: "300px",
+              //borderTopRightRadius: "20px",
+              //borderBottomRightRadius: "20px",
+              borderRadius: "20px",
               height: "300px",
               zIndex: "-1",
             }}

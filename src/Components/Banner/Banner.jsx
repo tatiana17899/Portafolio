@@ -36,13 +36,24 @@ const Banner = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/tatiana_suarez_xd/"
+                href="https://dribbble.com/tatiana-mercedes"
                 className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
               >
                 <img
-                  alt="linkelnd"
+                  alt="dribbble"
                   className="h-full w-full object-cover"
-                  src="https://i.ibb.co/B55Dxp1B/instagram-4.png"
+                  src="https://i.postimg.cc/sxW1j3Hk/imagen-2025-06-27-210734798-removebg-preview.png"
+                  style={{ width: "50px", height: "50px" }}
+                />
+              </a>
+              <a
+                href="https://dribbble.com/tatiana-mercedes"
+                className="d-block w-12 h-12 rounded-full  flex items-center justify-center shadow-md"
+              >
+                <img
+                  alt="tiktok"
+                  className="h-full w-full object-cover"
+                  src="https://i.postimg.cc/hj6fRXs8/images-24-removebg-preview.png"
                   style={{ width: "50px", height: "50px" }}
                 />
               </a>
@@ -90,7 +101,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          {/* Profile Image */}
+          {/* Profile Image 
           <div className="flex-shrink-0">
             <img
               alt="Profile picture of Tatiana Suarez R. standing on a sidewalk with trees and grass in the background"
@@ -98,7 +109,7 @@ const Banner = () => {
               src="https://i.ibb.co/v6Dzc6RP/Imagen-de-Whats-App-2025-02-18-a-las-20-31-02-56aa94aa.jpg"
               id="img-profile"
             />
-          </div>
+          </div>*/}
         </div>
         {/* Footer */}
         <div className="bg-white text-center text-black text-lg font-bold flex flex-wrap justify-around overflow-hidden">
